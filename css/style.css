@@ -1,0 +1,90 @@
+@import url(normalize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --body: #0A0C1C;
+    --white: #FFFFFF;
+    --main: #1B1937;
+    --accent-color: #AB5CDB;
+    --shadow: rgba(23, 25, 41, 0.2031);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1110px;
+    display: flex;
+    overflow: hidden;
+    filter: drop-shadow(0px 20px 20px -10px var(--shadow));
+}
+
+.left-container {
+    padding: 80px;
+    background-color: var(--main);
+    width: 50%;
+    border-radius: 8px 0px 0px 8px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0px;
+    line-height: 44px;
+    margin-bottom: 24px;
+    width: 403px;
+}
+
+h1>span {
+    color: var(--accent-color);
+}
+
+.presentation {
+    width: 374px;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    margin-bottom: 72px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stats h2 {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: auto;
+    margin-bottom: 2px;
+}
+
+.stats p {
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.right-container {
+    position: relative;
+    width: 50%;
+    border-radius: 0px 8px 8px 0px;
+}
