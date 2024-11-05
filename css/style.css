@@ -102,6 +102,7 @@ h1>span {
     overflow: hidden;
     opacity: 75.11%;
     background-color: var(--accent-color);
+    line-height: 0px;
 }
 
 .right-container img {
